@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-punisher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    
+    "dev":"nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fake_credit_card": "^1.0.1",
+    "faker": "^5.5.3",
+    "nanoid": "^3.1.25",
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.8",
+    "@types/puppeteer": "^5.4.4",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
